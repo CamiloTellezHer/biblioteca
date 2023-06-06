@@ -1,0 +1,106 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+/* <<< */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgba(193, 138, 29, 0.66);
+}
+h2{
+    background-color: goldenrod;
+    text-align: center;
+    padding-top: 2%;
+}
+body{
+    background-image: url('../img/Biblioteca_panoramica.jpeg');
+    background-repeat: no-repeat;
+    height: 10px;
+}
+.caja{
+    padding: 2%;
+    margin-left: 1px;
+    height: 570px;
+}
+.perfil{
+    background-color: rgb(218, 158, 8);
+    height: 110px;
+    width: 110px;
+    margin-left: 1030px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+}
+.salir{
+    border: solid rgb(210, 203, 203);
+    border-radius: 10px;
+    text-align:center ;
+}
+.formulario2{
+    background-color: rgba(218, 165, 32, 0.738);
+    border: 1px solid  black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    width: 550px;
+    margin-top: 0;
+}
+td{
+    margin-right: 50px;
+}
+input, select{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+.basedatos{
+    background-color: rgba(197, 137, 17, 0.772);
+    border: 1px solid  black;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 15px;
+    width: 1050px;    
+}
+footer{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(193, 138, 29, 0.66);
+}
+.redes{
+    text-align: center;
+    font-size: 30px;
+}
+@media (min-width:200px) and (max-width:1130px ){
+    .caja{
+        flex: 50%;
+    }
+    h1, h2, footer{
+        width: 570px;
+    }
+    .perfil{
+        background-color: rgb(218, 158, 8);
+        height: 110px;
+        width: 110px;
+        margin-left: 380px;
+    }
+    .formulario2, .basedatos{
+        width: 500px;
+        flex: content;
+    }
+    label{
+        font-size: 8px;
+    }
+}

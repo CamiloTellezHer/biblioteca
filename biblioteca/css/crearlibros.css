@@ -1,0 +1,93 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+/* <<< */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: rgba(193, 138, 29, 0.66);
+}
+h2{
+    background-color: goldenrod;
+    text-align: center;
+    padding-top: 2%;
+}
+body{
+    background-image: url('../img/Biblioteca_panoramica.jpeg');
+    background-repeat: no-repeat;
+}
+.caja{
+    height: 360px;
+    padding: 2%;
+    margin-left: 350px;
+}
+.perfil{
+    background-color: rgb(218, 158, 8);
+    height: 110px;
+    width: 110px;
+    margin-left: 680px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+}
+.Registrar{
+    border: solid rgb(210, 203, 203);
+    border-radius: 20px;
+    margin-right: 110px;
+    text-align:center ;
+}
+.salir{
+    border: solid rgb(210, 203, 203);
+    border-radius: 10px;
+    text-align:center ;
+}
+
+.formulario2{
+    background-color: rgba(193, 138, 29, 0.66);
+    border: 1px solid  black;
+    border-radius: 20px;
+    padding: 2%;
+    font-size: 20px;
+    width: 400px;
+}
+input, select{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+footer{
+    text-align: center;
+    background-color: rgba(193, 138, 29, 0.66);
+}
+.redes{
+    text-align: center;
+    font-size: 30px;
+}
+@media (min-width:200px) and (max-width:1130px ){
+    .caja{
+        margin-left: 30px;
+        flex: 50%;
+    }
+    h1, h2, footer{
+        width: 570px;
+    }
+    .perfil{
+        background-color: rgb(218, 158, 8);
+        height: 110px;
+        width: 110px;
+        margin-left: 380px;
+    }
+    
+}

@@ -1,0 +1,68 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico|zocial);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+/* <<< */
+*{
+    margin: 0;
+}
+h1{
+    background-color: rgba(193, 138, 29, 0.66);
+    text-align: center;
+    
+}
+body{
+    background-image: url('../img/Biblioteca_panoramica.jpeg');
+    background-repeat: no-repeat;
+}
+.caja{
+    height: 360px;
+    padding: 2%;
+    text-align: center;
+    margin-left: 350px;
+}
+.formulario1{
+    background-color: rgba(193, 138, 29, 0.66);
+    border: 1px solid  black;
+    border-radius: 20px;
+    margin-top: 80px;
+    padding: 2%;
+    font-size: 20px;
+    width: 400px;   
+}
+input, select{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+footer{
+    background-color: rgba(193, 138, 29, 0.66);
+    text-align: center;
+}
+.Ingresar{
+    border: solid rgb(210, 203, 203);
+    border-radius: 20px;
+   
+}
+.redes{
+    text-align: center;
+    font-size: 30px;
+}
+@media (min-width:200px) and (max-width:1130px ){
+    .caja{
+        margin-left: 30px;
+        flex: 100%;
+    }
+    h1, footer{
+        width: 600px;
+    }
+}
+
+
+
